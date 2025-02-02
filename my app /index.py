@@ -14,7 +14,7 @@ app.add_middleware(
 )
 
 # Load marks data
-with open("q-vercel-python.json", "r") as file:  
+with open("vercel.json", "r") as file:  
     marks_list = json.load(file)
     # print(marks_list)
 
